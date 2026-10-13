@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.quackcraft.quackingly.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "TitleScreenMixin",
+    "VoiceHudButtonMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

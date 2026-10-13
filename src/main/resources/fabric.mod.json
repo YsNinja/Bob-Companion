@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "quackingly",
+  "version": "${version}",
+  "name": "Bob Companion",
+  "description": "A friendly, player-shaped Minecraft companion. Uses Bob's Steve appearance, short bounded memory, and opt-in chat. No horror; microphone use is off by default.",
+  "authors": [
+    "YsNinja",
+    "StXaviersOfficial (upstream project)"
+  ],
+  "contact": {
+    "homepage": "https://github.com/YsNinja/Bob-Companion",
+    "sources": "https://github.com/YsNinja/Bob-Companion",
+    "issues": "https://github.com/YsNinja/Bob-Companion/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.quackcraft.quackingly.Quackingly"
+    ],
+    "client": [
+      "com.quackcraft.quackingly.QuackinglyClient"
+    ],
+    "modmenu": [
+      "com.quackcraft.quackingly.client.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "quackingly.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "carpet": "*"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "voicechat": "*"
+  },
+  "custom": {
+    "quackingly:voicechat_plugin": "com.quackcraft.quackingly.voice.QuackinglyVoiceChatPlugin"
+  }
+}
+

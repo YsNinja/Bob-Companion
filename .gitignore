@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+.gradle-home/
+build/
+out/
+run/
+runs/
+/bob-profile/
+/config/
+config/*.json
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+*.launch
+
+# Fabric
+run/
+runs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local build tools and caches (do not publish)
+.build-tools/
