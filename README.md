@@ -92,6 +92,8 @@ Bug reports, focused fixes, documentation improvements, and small tested feature
 
 Bob Companion adapts code from [Quackingly by StXaviersOfficial](https://github.com/StXaviersOfficial/Quackingly), distributed under the MIT License. The upstream copyright and license are retained in [LICENSE](LICENSE). Minecraft and Fabric are trademarks and projects of their respective owners; this project is unofficial and is not affiliated with Mojang or Microsoft.
 
+**Development acknowledgment:** OpenAI Codex provided substantial AI-assisted implementation, debugging, verification support, and documentation during this adaptation. YsNinja is the project owner and maintainer. This acknowledgment credits the development tool and does not replace the upstream license notices.
+
 ## Security
 
 Do not commit API keys, `config/bob-companion.json`, personal recordings, or world saves. If you find a security issue, please avoid posting secrets or exploit details publicly; open a private vulnerability report through GitHub's **Security** tab if private vulnerability reporting is enabled, or contact the maintainer through the repository profile.
